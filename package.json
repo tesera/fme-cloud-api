@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "lodash": "^4.17.4",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
   }
 }
