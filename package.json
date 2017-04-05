@@ -1,0 +1,15 @@
+{
+  "name": "fme-cloud-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive -i --fgrep '#WIP'"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0"
+  }
+}
