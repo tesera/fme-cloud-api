@@ -1,8 +1,14 @@
 [![codeship][2]][1] [![npm version](https://badge.fury.io/js/fme-cloud-api.svg)](https://badge.fury.io/js/fme-cloud-api)
 
 # FME Cloud API
+A small client library to access FME Cloud (http://www.safe.com/fme/fme-cloud/). Note this is not for the FME Server API.
 
-run `npm install fme-cloud-manager` then:
+**Installing**
+
+    npm install fme-cloud-manager
+
+**Using**
+For a working example, see example.js
 
     var token = 'mytoken';
     var client = require('fme-cloud-api')(token);
