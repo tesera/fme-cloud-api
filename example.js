@@ -1,7 +1,13 @@
 
 const FMECloudAPI = require('./lib/fme_cloud_api');
 
+// Connect to API
 var client = new FMECloudAPI('mytoken');
-client.instances().then(console.log);
+
+// List instances
+client.instances().then(console.log).catch(console.error);
+
+// Start an instance
+client.start(2397);
 
 
