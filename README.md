@@ -2,8 +2,10 @@
 
 # FME Cloud API
 
+run `npm install fme-cloud-manager` then:
+
     var token = 'mytoken';
-    var client = require('./lib/fme_cloud_api')(token);
+    var client = require('fme-cloud-api')(token);
     client.instances.then(console.log);
 
   [1]: https://www.codeship.io/projects/211734/
