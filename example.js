@@ -10,4 +10,7 @@ client.instances().then(console.log).catch(console.error);
 // Start an instance
 client.start(2397);
 
+// Pause an instance
+client.pause(2397);
+
 
