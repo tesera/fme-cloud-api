@@ -6,7 +6,7 @@ const http = require('http');
 
 describe('FMECloudAPI', function() {
 
-    describe('get()', function(){
+    describe('request()', function(){
 
         beforeEach(function() {
             this.request = sinon.stub(http, 'request');
@@ -24,7 +24,7 @@ describe('FMECloudAPI', function() {
             response.write(expected);
             response.end();
             this.request.callsArgWith(1, response).returns(request);
-            return client.get(expected).then(function(result) {
+            return client.request('GET', expected).then(function(result) {
                 assert.equal(result, expected)
             });
         });
