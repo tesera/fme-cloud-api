@@ -1,6 +1,6 @@
 {
   "name": "fme-cloud-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Client library to access FME Cloud (http://www.safe.com/fme/fme-cloud/)",
   "main": "lib/fme_cloud_api.js",
   "scripts": {
