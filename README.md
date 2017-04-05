@@ -1,4 +1,4 @@
-[![codeship][2]][1]
+[![codeship][2]][1] [![npm version](https://badge.fury.io/js/fme-cloud-api.svg)](https://badge.fury.io/js/fme-cloud-api)
 
 # FME Cloud API
 
