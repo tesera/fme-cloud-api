@@ -11,6 +11,7 @@ describe('FMECloudAPI', function() {
         });
 
         it('overrides the env token when it is supplied directly', function() {
+            process.env.TOKEN = 'envtoken';
             var expected = 'paramtoken';
 
             var client = new FMECloudAPI(expected);

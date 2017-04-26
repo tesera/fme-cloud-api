@@ -5,7 +5,7 @@ A small client library to access FME Cloud (http://www.safe.com/fme/fme-cloud/).
 
 **Installing**
 
-    npm install fme-cloud-manager
+    npm install fme-cloud-api
 
 **Using**
 For a working example, see example.js
@@ -16,3 +16,7 @@ For a working example, see example.js
 
   [1]: https://www.codeship.io/projects/211734/
   [2]: https://img.shields.io/codeship/05578930-fc4f-0134-bf78-5a7bbc9ec5df.svg
+
+**Todo**
+
+    * Implement missing functions.
