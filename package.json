@@ -1,6 +1,6 @@
 {
   "name": "fme-cloud-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Client library to access FME Cloud (http://www.safe.com/fme/fme-cloud/)",
   "main": "lib/fme_cloud_api.js",
   "directories": {
@@ -10,6 +10,10 @@
     "test": "mocha --recursive -i --fgrep '#WIP'"
   },
   "author": "Matt Zandstra <matt.zandstra@tesera.com> (http://tesera.com)",
+"repository" : {
+    "type" : "git",
+    "url" : "https://github.com/tesera/fme-cloud-api.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "lodash": "^4.17.4",
