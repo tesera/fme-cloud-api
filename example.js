@@ -13,4 +13,5 @@ client.start(2397);
 // Pause an instance
 client.pause(2397);
 
-
+// Get an instance
+client.instance(2397).then(console.log).catch(console.error)
